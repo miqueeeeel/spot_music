@@ -1,0 +1,27 @@
+{
+  "name": "discord-spotify-bot",
+  "version": "1.0.0",
+  "description": "Bot de Discord con integración de Spotify",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy-commands": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.17.0",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "play-dl": "^1.9.7",
+    "spotify-web-api-node": "^5.0.2",
+    "ffmpeg-static": "^5.2.0",
+    "sodium-native": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
